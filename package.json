@@ -1,0 +1,16 @@
+{
+	"name": "fnorex-page",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.html",
+	"scripts": {
+		"dev": "live-server"
+	},
+	"keywords": [],
+	"author": "Zamur650",
+	"license": "ISC",
+	"devDependencies": {
+		"live-server": "^1.2.1",
+		"prettier": "^2.4.1"
+	}
+}

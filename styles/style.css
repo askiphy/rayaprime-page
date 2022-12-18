@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+:root {
+	--text-color: #ffffff;
+	--background-color: #222222;
+	--background-second-color: #7a0404;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+
+	margin: 0;
+
+	background-color: var(--background-color);
+	color: var(--text-color);
+}
+
+.landing {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #3b0101;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.landing img {
+	width: 10em;
+}
+
+img {
+	border-radius: 1em;
+}
+
+button {
+	font-family: 'Montserrat', sans-serif;
+
+	padding: 1.5em;
+
+	border: none;
+	border-radius: 1em;
+
+	background-color: var(--background-color);
+	color: var(--text-color);
+}
+
+button:hover {
+	background-color: var(background-second-color);
+}
+
+.commands {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+	background-color: var(--background-color);
+}
+
+.authors {
+	display: flex;
+	min-height: 50vh;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+	background-color: var(--background-second-color);
+}
+
+.table {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.author {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.author img {
+	height: 10em;
+}
+
+.bottom {
+	display: flex;
+	min-height: 50vh;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+	background-color: var(--background-color);
+}
+
+.bottom button {
+	background-color: var(--background-second-color);
+}
